@@ -8,5 +8,6 @@
   <name>maven-examples</name>
   <modules>
     <module>assembly-antrun-plugin</module>
+    <module>antrun-plugin</module>
   </modules>
 </project>
