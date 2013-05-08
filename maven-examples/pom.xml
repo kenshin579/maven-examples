@@ -7,7 +7,7 @@
   <packaging>pom</packaging>
   <name>maven-examples</name>
   <modules>
-    <module>assembly-antrun-plugin</module>
-    <module>antrun-plugin</module>
+    <module>maven-assembly-plugin</module>
+    <module>maven-antrun-plugin</module>
   </modules>
 </project>

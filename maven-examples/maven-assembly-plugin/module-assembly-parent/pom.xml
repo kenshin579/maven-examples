@@ -2,18 +2,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-        <artifactId>assembly-antrun-plugin</artifactId>
+        <artifactId>module-assembly-parent</artifactId>
         <groupId>com.hancom.maven</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
   <groupId>com.hancom.maven</groupId>
-  <artifactId>assemblyadapter-parent</artifactId>
+  <artifactId>module-assembly-parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>assemblyadapter-parent</name>
   <modules>
-  	<module>assemblyadapater-storage</module>
-  	<module>assemblyadapter-local</module>
-    <module>release</module>
+  	<module>module-assembly-storage</module>
+  	<module>module-assembly-local</module>
+    <module>module-release</module>
   </modules>
 </project>

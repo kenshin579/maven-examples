@@ -6,12 +6,12 @@
         <groupId>com.hancom.maven</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-  <artifactId>antrun-plugin</artifactId>
+  <artifactId>maven-antrun-plugin</artifactId>
   <packaging>pom</packaging>
   <name>antrun-plugin</name>
   <modules>
-  	<module>antrun-adapter-local</module>
-  	<module>antrun-adapter-storage</module>
+  	<module>module-antrun-local</module>
+  	<module>module-antrun-storage</module>
   </modules>
   <build>
 		<pluginManagement>
