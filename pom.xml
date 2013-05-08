@@ -9,5 +9,7 @@
   <modules>
     <module>maven-assembly-plugin</module>
     <module>maven-antrun-plugin</module>
+    <module>maven-shade-plugin</module>
+    <module>maven-dependency-plugin</module>
   </modules>
 </project>
